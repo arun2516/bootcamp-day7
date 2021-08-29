@@ -29,6 +29,21 @@ SOLUTION:
 1) myCar.accidents.forEach(function(element){ 
  element.atFaultForAccident = false;
  });
+ 
+ SOLUTION:
+ { make: 'Bugatti',
+  model: 'Bugatti La Voiture Noire',
+  year: 2019,
+  accidents: 
+   [ { date: '3/15/2019',
+       damage_points: '5000',
+       atFaultForAccident: false },
+     { date: '7/4/2022',
+       damage_points: '2200',
+       atFaultForAccident: false },
+     { date: '6/22/2021',
+       damage_points: '7900',
+       atFaultForAccident: false } ] }
 
 
 
@@ -37,6 +52,10 @@ SOLUTION:
      console.log(element.date);
  });
 
+SOLUTION:
+3/15/2019
+7/4/2022
+6/22/2021
 
 
 
@@ -54,6 +73,9 @@ function printallvalues(obj){
     return res;
 }
 console.log(printallvalues(object));
+
+OUTPUT:
+[ 'RajiniKanth', 33, false ]
 
 
 
